@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = "newrelic_mongo"
-  gem.version = "0.1.0"
+  gem.version = NewrelicMongo::VERSION
 
   gem.required_rubygems_version = Gem::Requirement.new(">= 0") if gem.respond_to? :required_rubygems_version=
   gem.authors = ["Raphael Crawford-Marks"]

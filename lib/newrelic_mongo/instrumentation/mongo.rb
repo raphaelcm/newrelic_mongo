@@ -1,5 +1,5 @@
 # Mongo Instrumentation originally contributed by Alexey Palazhchenko
-
+DependencyDetection.defer do
   @name = :mongodb
   
   depends_on do
@@ -7,7 +7,7 @@
   end
 
   executes do
-    NewRelic::Agent.logger.debug 'Installing MongoDB instrumentation'
+    NewRelic::Agent.logger.debug 'Installing mongo-ruby-driver instrumentation'
   end  
 
   executes do

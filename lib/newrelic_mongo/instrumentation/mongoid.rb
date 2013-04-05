@@ -6,7 +6,7 @@ DependencyDetection.defer do
   end
 
   executes do
-    NewRelic::Agent.logger.debug 'Installing Mongoid instrumentation'
+    NewRelic::Agent.logger.debug 'Installing Mongoid 2.x instrumentation'
   end
 
   executes do
