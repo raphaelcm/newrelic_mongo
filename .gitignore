@@ -27,5 +27,6 @@ docs/
 pkg
 log
 Gemfile.lock
+*.gem
 
 ## PROJECT::SPECIFIC

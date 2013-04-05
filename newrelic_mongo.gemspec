@@ -1,8 +1,9 @@
+require File.expand_path('../lib/newrelic_mongo/version', __FILE__)
+
 Gem::Specification.new do |gem|
   gem.name = "newrelic_mongo"
-  gem.version = NewrelicMongo::VERSION
+  gem.version = ::NewrelicMongo::VERSION
 
-  gem.required_rubygems_version = Gem::Requirement.new(">= 0") if gem.respond_to? :required_rubygems_version=
   gem.authors = ["Raphael Crawford-Marks"]
   gem.description = "Community-contributed instrumentation for Mongo gem and Mongoid 2.x for NewRelic.\n"
   gem.email = "raphael.crawfordmarks@gmail.com"
