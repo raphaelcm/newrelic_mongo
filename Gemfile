@@ -1,7 +1,7 @@
 source :rubygems
 
 gem 'newrelic_rpm', '>= 3.6.0'
-
+gem 'mongo'
 group :test do
   gem 'json'
   gem 'rspec'

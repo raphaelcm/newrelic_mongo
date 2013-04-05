@@ -1,5 +1,5 @@
-# Mongo Instrumentation contributed by Alexey Palazhchenko
-DependencyDetection.defer do
+# Mongo Instrumentation originally contributed by Alexey Palazhchenko
+
   @name = :mongodb
   
   depends_on do
