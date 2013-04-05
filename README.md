@@ -1,7 +1,7 @@
 # The newrelic_mongo gem
 
-The `newrelic_mongo` gem contains instrumentation of mongo-ruby-driver gem for
-the New Relic RPM agent contributed by the community of RPM users.  It requires
+The `newrelic_mongo` gem contains NewRelic RPM instrumentation for the
+mongo-ruby-driver gem, contributed by the community of RPM users.  It requires
 the RPM Agent to run.
 
 The gem was forked from the deprecated `rpm_contrib` gem and is maintained by
@@ -15,7 +15,7 @@ https://github.com/stevebartholomew/newrelic_moped
 
 TODO
 
-###  Contributing
+## Contributing
 
 I welcome bug fixes and new features.  Fork the repo, make your changes, and then
 submit a pull request.  Be sure to add tests.  Thanks in advance!

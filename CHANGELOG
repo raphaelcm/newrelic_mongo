@@ -1,5 +1,5 @@
 * Version 0.1.0
-  - Separated Mongo and Mongoid instrumentation into a separate gem
+  - Pulled from deprecated `rpm_contrib` repo
 
 Below is the old rpm_contrib gem Changelog:
 
