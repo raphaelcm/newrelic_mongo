@@ -13,9 +13,27 @@ https://github.com/stevebartholomew/newrelic_moped
 
 ## Getting Started
 
-TODO
+Add the `newrelic_mongo` gem to your Gemfile.
+
+## Instrumentation
+
+### Mongo Ruby Driver
+
+For the mongo ruby driver, the following instrumentation is added:
+
+`Database/COLLECTION_NAME/ACTION`
+
+Where ACTION is Find, Refresh, Update, Close, etc..
+
+### Mongoid 2.x
+
+For Mongoid 2.x, the following instrumentation is added:
+
+`Mongoid/CLASSNAME/OPERATION`
+
+Where OPERATION is any operation in `Mongoid::Collections::Operations::ALL` (except for `<<` and `[]`).
 
 ## Contributing
 
 I welcome bug fixes and new features.  Fork the repo, make your changes, and then
-submit a pull request.  Be sure to add tests.  Thanks in advance!
+submit a pull request.  Thanks in advance!
