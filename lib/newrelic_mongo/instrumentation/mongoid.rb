@@ -14,7 +14,7 @@ DependencyDetection.defer do
       include NewRelic::Agent::MethodTracer
 
       (Mongoid::Collections::Operations::ALL - [:<<, :[]]).each do |method|
-        add_method_tracer method, "ActiveRecord/\#{@klass}/#{method}"
+        add_method_tracer method, "Mongoid/\#{@klass}/#{method}"
       end
     end
   end
