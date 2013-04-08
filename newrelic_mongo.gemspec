@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
   gem.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Contributed Instrumentation for New Relic RPM", "-m", "README.md"]
   gem.require_paths = ["lib"]
   gem.summary = "Mongo Gem and Mongoid 2.x instrumentation for NewRelic"
-  gem.add_dependency 'newrelic_rpm', '~> 3.6.0'
-  gem.add_dependency 'mongo'
+  gem.add_dependency 'newrelic_rpm', '~> 3.5'
+  gem.add_dependency 'mongo', '~> 1.4'
 end
 
